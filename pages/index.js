@@ -1,209 +1,138 @@
 import Head from 'next/head'
+import Link from 'next/link'
+import Script from 'next/script'
+import 'bootstrap/dist/css/bootstrap.min.css'
+import "/node_modules/bootstrap/dist/css/bootstrap.css"
+import DesktopTopBar from '/pages/Components/nav-bar/desktop-top-bar.js'
+import MobileTopBar from '/pages/Components/nav-bar/mobile-top-bar.js'
+import TabletTopBar from '/pages/Components/nav-bar/tablet-top-bar'
+import DesktopNavBar from '/pages/Components/nav-bar/desktop-nav-bar.js';
+import TabletNavBar from '/pages/Components/nav-bar/tablet-nav-bar.js';
+import MobileNavBar from '/pages/Components/nav-bar/mobile-nav-bar.js';
+import MobileBottomNavBar from '/pages/Components/nav-bar/mobile-bottom-nav-bar.js'
+import DesktopContent from '/pages/Components/home-page/desktop-content.js'
+import MobileContent from '/pages/Components/home-page/mobile-content.js'
+import TabletContent from '/pages/Components/home-page/tablet-content'
+import DesktopFooter from '/pages/Components/footer/desktop-footer'
+import MobileFooter from '/pages/Components/footer/mobile-footer'
+import TabletFooter from '/pages/Components/footer/tablet-footer'
+import LogoNav from '/pages/Components/logo-nav/logo-nav';
+import { thongTinTiem1 } from '/pages/core/info';
+import { thongTinTiem2 } from '/pages/core/info';
+import { schemaData } from '/pages/core/info'
+
+import FormDeLaiThongTin from '/pages/Components/form/form-de-lai-thong-tin';
 
 export default function Home() {
+  //Không sử dụng chuột phải
+  if (process.browser){
+  document.oncontextmenu = new Function("return false;");
+  }
+  /*Code bảo lưu
+      <div className="page-container">
+            <div className="page-nav-bar">
+              <div className="page-top-bar">
+                <div className="page-mobile-top-bar">
+                  <MobileTopBar />
+                </div>
+                <div className="page-tablet-top-bar">
+                  <TabletTopBar />
+                </div>
+                <div className="page-desktop-top-bar">
+                  <DesktopTopBar />
+                </div>
+              </div>
+              <div className="page-nav-bar">
+                <div className="page-mobile-nav-bar">
+                  <MobileNavBar />
+                </div>
+                <div className="page-tablet-nav-bar">
+                  <TabletNavBar />
+                </div>
+                <div className="page-desktop-nav-bar">
+                  <DesktopNavBar />
+                </div>
+              </div>
+              <div className="page-bottom-nav-bar">
+                <div className="mobile-bottom-nav-bar">
+                  <MobileBottomNavBar />
+                </div>
+              </div>
+            </div>
+            <div className="page-content">
+              <div className="page-desktop-content">
+                  <DesktopContent />
+              </div>
+              <div className="page-mobile-content">
+                <MobileContent />
+              </div>
+              <div className="page-tablet-content">
+                <TabletContent />
+              </div>
+              <div>
+                <FormDeLaiThongTin />
+              </div>
+            </div>
+            
+            
+            <div className="page-footer">
+              <div className="page-desktop-footer">
+                <DesktopFooter />
+              </div>
+              <div className="page-mobile-footer">
+                <MobileFooter />
+              </div>
+              <div className="page-tablet-footer">
+                <TabletFooter />
+              </div>
+            </div>  
+          </div>
+  */
   return (
-    <div className="container">
-      <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+    
+    <>
+        <Head>
+          <title>{thongTinTiem2.titleContent}</title>
+          <meta name="description" 
+            content= {thongTinTiem2.metaDescriptionContent} />
+          <meta charSet="UTF-8" />
+          <meta name="viewport" content="width=device-width, initial-scale=1" />
+          
+          <link rel="icon" href={thongTinTiem1.icon} />
+          <meta name="geo.position" content={thongTinTiem2.geoPositionContent} />
+          <meta name="geo.placename" content={thongTinTiem2.geoPlaceNameContent} />
+          <meta name="geo.region" content={thongTinTiem1.geoRegionContent} />
+          <link rel="canonical" href={thongTinTiem1.websiteTiem} />
+          <link rel="alternate" hrefLang="en" href={thongTinTiem1.websiteTiem} />
+          <link rel="alternate" href={thongTinTiem1.websiteTiem} hrefLang="x-default" />
 
-      <main>
-        <h1 className="title">
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
+          <meta property='og:title' content={thongTinTiem2.sloganTiem} />
+          <meta property='og:image' content={thongTinTiem1.ogImage} />
+          <meta property='og:description' 
+            content={thongTinTiem2.metaDescriptionContent} />
+          <meta property='og:url' content={thongTinTiem1.websiteTiem} />
+          <meta property='og:image:width' content='1164' />
+          <meta property='og:image:height' content='1032' />
+          <meta property="og:type" content='website' />
 
-        <p className="description">
-          Get started by editing <code>pages/index.js</code>
-        </p>
+          <meta name="google-site-verification" content="NHoXXlbVMFbrtORj5fhJFNim8Qdum1k3yeUVIkoM_TQ" />
 
-        <div className="grid">
-          <a href="https://nextjs.org/docs" className="card">
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
-
-          <a href="https://nextjs.org/learn" className="card">
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className="card"
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className="card"
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
+          <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+          />
+        </Head>
+        <div className="announcement">
+          <div>
+            Website đang trong quá trình được xây dựng và sẽ được ra mắt để phục vụ quý anh chị sớm nhất có thể
+          </div>
+          <div>
+          Mọi thông tin liên quan, quý anh chị có thể liên hệ tới Facebook Page chính thức của Best Salon Marketing
+          </div>
+          <Link href="https://www.facebook.com/BestSalonMarketingAgency/">
+            <img className="announcement-image" src="/images/icons/icon-facebook.png" />
+          </Link>
         </div>
-      </main>
-
-      <footer>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel" className="logo" />
-        </a>
-      </footer>
-
-      <style jsx>{`
-        .container {
-          min-height: 100vh;
-          padding: 0 0.5rem;
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
-        }
-
-        main {
-          padding: 5rem 0;
-          flex: 1;
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
-        }
-
-        footer {
-          width: 100%;
-          height: 100px;
-          border-top: 1px solid #eaeaea;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-        }
-
-        footer img {
-          margin-left: 0.5rem;
-        }
-
-        footer a {
-          display: flex;
-          justify-content: center;
-          align-items: center;
-        }
-
-        a {
-          color: inherit;
-          text-decoration: none;
-        }
-
-        .title a {
-          color: #0070f3;
-          text-decoration: none;
-        }
-
-        .title a:hover,
-        .title a:focus,
-        .title a:active {
-          text-decoration: underline;
-        }
-
-        .title {
-          margin: 0;
-          line-height: 1.15;
-          font-size: 4rem;
-        }
-
-        .title,
-        .description {
-          text-align: center;
-        }
-
-        .description {
-          line-height: 1.5;
-          font-size: 1.5rem;
-        }
-
-        code {
-          background: #fafafa;
-          border-radius: 5px;
-          padding: 0.75rem;
-          font-size: 1.1rem;
-          font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
-            DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
-        }
-
-        .grid {
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          flex-wrap: wrap;
-
-          max-width: 800px;
-          margin-top: 3rem;
-        }
-
-        .card {
-          margin: 1rem;
-          flex-basis: 45%;
-          padding: 1.5rem;
-          text-align: left;
-          color: inherit;
-          text-decoration: none;
-          border: 1px solid #eaeaea;
-          border-radius: 10px;
-          transition: color 0.15s ease, border-color 0.15s ease;
-        }
-
-        .card:hover,
-        .card:focus,
-        .card:active {
-          color: #0070f3;
-          border-color: #0070f3;
-        }
-
-        .card h3 {
-          margin: 0 0 1rem 0;
-          font-size: 1.5rem;
-        }
-
-        .card p {
-          margin: 0;
-          font-size: 1.25rem;
-          line-height: 1.5;
-        }
-
-        .logo {
-          height: 1em;
-        }
-
-        @media (max-width: 600px) {
-          .grid {
-            width: 100%;
-            flex-direction: column;
-          }
-        }
-      `}</style>
-
-      <style jsx global>{`
-        html,
-        body {
-          padding: 0;
-          margin: 0;
-          font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
-            Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
-            sans-serif;
-        }
-
-        * {
-          box-sizing: border-box;
-        }
-      `}</style>
-    </div>
+    </>
   )
 }
