@@ -5,11 +5,9 @@ import Navbar from 'react-bootstrap/Navbar';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Offcanvas from 'react-bootstrap/Offcanvas';
-import ButtonFullListOfOurServices from '/pages/Components/buttons/button-full-list-of-our-services.js';
-import { NavDropdown } from 'react-bootstrap';
 import LogoNav from '/pages/Components/logo-nav/logo-nav';
-import { thongTinTiem1 } from '/pages/core/info';
-import { thongTinTiem2 } from '/pages/core/info';
+import { menu } from '/pages/Components/core/info';
+import { serviceCategory } from '/pages/Components/core/info';
 
 
 export default function MobileNavBar(){
@@ -40,107 +38,39 @@ export default function MobileNavBar(){
                             <Offcanvas.Body>
                                 <Nav className="justify-content-end flex-grow-1 pe-3">
                                     <div className="nav-bar-main-category">
-                                        <Link href={thongTinTiem1.linkTomainMenu1}>
-                                            <a className="nav-bar-link-a">
-                                                {thongTinTiem1.mainMenu1}
+                                        <Link href="/doi-mk-insta">
+                                            <a className="nav-bar-link-main-menu">
+                                                Đổi mật khẩu Instagram
                                             </a>
                                         </Link>
                                     </div>
                                     <div className="nav-bar-main-category">
-                                        <Link href={thongTinTiem1.linkTomainMenu4}>
-                                            <a className="nav-bar-link-a">
-                                                {thongTinTiem1.mainMenu4}
-                                            </a>
-                                        </Link>
-                                        <div className="nav-bar-services-sub-category">
-                                        <div className="nav-bar-services-sub-category-details">
-                                                <div className="services-list-1">
-                                                    <Link href={thongTinTiem1.linkTomainService1}>
-                                                        <a className="nav-bar-link-a"> 
-                                                            {thongTinTiem1.mainService1}
-                                                        </a>
-                                                    </Link>
-                                                </div>
-                                            </div>
-                                            <div className="nav-bar-services-sub-category-details">
-                                                <div className="services-list-2">
-                                                    <Link href={thongTinTiem1.linkTomainService2}>
-                                                        <a className="nav-bar-link-a">
-                                                            {thongTinTiem1.mainService2}
-                                                        </a>
-                                                    </Link>
-                                                </div>
-                                            </div>    
-                                            <div className="nav-bar-services-sub-category-details">
-                                                <div className="services-list-3">
-                                                    <Link href={thongTinTiem1.linkTomainService3}>
-                                                        <a className="nav-bar-link-a">
-                                                            {thongTinTiem1.mainService3}
-                                                        </a>
-                                                    </Link>
-                                                </div>
-                                            </div> 
-                                            <div className="nav-bar-services-sub-category-details">
-                                                <div className="services-list-4">
-                                                    <Link href={thongTinTiem1.linkTomainService4}>
-                                                        <a className="nav-bar-link-a">
-                                                            {thongTinTiem1.mainService4}
-                                                        </a>
-                                                    </Link>
-                                                </div>
-                                            </div> 
-                                            <div className="nav-bar-services-sub-category-details">
-                                                <div className="services-list-5">
-                                                    <Link href={thongTinTiem1.linkTomainService5}>
-                                                        <a className="nav-bar-link-a">
-                                                            {thongTinTiem1.mainService5}
-                                                        </a>
-                                                    </Link>
-                                                </div>
-                                            </div> 
-                                            <div className="nav-bar-services-sub-category-details">
-                                                <div className="services-list-6">
-                                                    <Link href={thongTinTiem1.linkTomainService6}>
-                                                        <a className="nav-bar-link-a">
-                                                            {thongTinTiem1.mainService6}
-                                                        </a>
-                                                    </Link>
-                                                </div>
-                                            </div> 
-                                            <div className="nav-bar-services-sub-category-details">
-                                                <div className="services-list-7">
-                                                    <Link href={thongTinTiem1.linkTomainService7}>
-                                                        <a className="nav-bar-link-a">
-                                                            {thongTinTiem1.mainService7}
-                                                        </a>
-                                                    </Link>
-                                                </div>
-                                            </div> 
-                                        </div>
-                                    </div>
-                                    <div className="nav-bar-main-category">
-                                        <Link href={thongTinTiem1.linkTomainMenu3}>
-                                            <a className="nav-bar-link-a">
-                                                {thongTinTiem1.mainMenu3}
+                                        <Link href="/doi-mk-fb-ios">
+                                            <a className="nav-bar-link-main-menu">
+                                                Đổi mật khẩu Facebook (IOS)
                                             </a>
                                         </Link>
                                     </div>
                                     <div className="nav-bar-main-category">
-                                        <Link href={thongTinTiem1.linkTomainMenu2}>
-                                            <a className="nav-bar-link-a">
-                                                {thongTinTiem1.mainMenu2}
+                                        <Link href="/doi-mk-fb-androi">
+                                            <a className="nav-bar-link-main-menu">
+                                                Đổi mật khẩu Facebook (Android)
                                             </a>
                                         </Link>
                                     </div>
                                     <div className="nav-bar-main-category">
-                                        <Link href={thongTinTiem1.linkTomainMenu5}>
-                                            <a className="nav-bar-link-a">
-                                                {thongTinTiem1.mainMenu5}
+                                        <Link href="/bai-huong-dan-setmore">
+                                            <a className="nav-bar-link-main-menu">
+                                                Đặt ngày nghỉ cho tiệm (Setmore)
                                             </a>
                                         </Link>
                                     </div>
-                                    <div className="button">
-                                        <ButtonFullListOfOurServices />
+                                    <div className="nav-bar-main-category">
+                                        <Link href="/">
+                                            <a className="nav-bar-link-main-menu">
+                                                
+                                            </a>
+                                        </Link>
                                     </div>
                                 </Nav>
                             </Offcanvas.Body>

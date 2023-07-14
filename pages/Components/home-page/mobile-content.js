@@ -1,109 +1,122 @@
-import Button1 from '/pages/Components/buttons/button-1';
-import Button2 from '/pages/Components/buttons/button-2';
-import TimeSchedule from '/pages/Components/time-schedule/time-schedule';
-import Location from '/pages/Components/location/location';
-import CustomerReview from '/pages/Components/customer-review';
-import DongVien1 from '/pages/Components/dong-vien/dong-vien-1';
-import DongVien2 from '/pages/Components/dong-vien/dong-vien-2';
-import DongVien3 from '/pages/Components/dong-vien/dong-vien-3';
-import Service1 from '/pages/services/service-1';
-import Service2 from '/pages/services/service-2';
-import Service3 from '/pages/services/service-3';
-import Service4 from '/pages/services/service-4';
-import Service5 from '/pages/services/service-5';
-import Service6 from '/pages/services/service-6';
-import Carousel from 'react-bootstrap/Carousel'
-import NhanManh1 from '/pages/Components/dong-vien/nhan-manh-1';
-import NhanManh2 from '/pages/Components/dong-vien/nhan-manh-2';
-import NhanManh3 from '/pages/Components/dong-vien/nhan-manh-3';
-import NhanManh4 from '/pages/Components/dong-vien/nhan-manh-4';
-import React, { useEffect } from "react";
-import FormDeLaiThongTin from '/pages/Components/form/form-de-lai-thong-tin';
-import Offers from '/pages/Components/offers/offers';
-import { thongTinTiem1 } from '/pages/core/info';
-import { thongTinTiem2 } from '/pages/core/info';
-
 
 export default function MobileContent(){
-    if (process.browser){
-        document.oncontextmenu = new Function("return false;");
-      }
-      useEffect(() => {
-        if (typeof window !== 'undefined'){
-            document.getElementById('first-screen-block-mobile').style.background = 'url('+thongTinTiem1.mobileCarouselImage1+')';
-        }
-      });
     return(
         <>
             <div className="mobile-content">
-                <div className="first-screen-block" id="first-screen-block-mobile">
-                    <div className="first-screen-block-content">
-                        <div className="first-screen-block-video">
-                            <iframe className="first-screen-video" width={thongTinTiem1.firstScreenVideoMobileWidth}height={thongTinTiem1.firstScreenVideoMobileHeight} src={thongTinTiem1.firstScreenVideoLink} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>   
-                        </div>
-                        <div className="first-screen-block-bottom">
-                            <h1 className="first-screen-block-title">
-                                {thongTinTiem2.carouselHeading}
-                            </h1>
-                            <div className="button">
-                                <Button1 />
-                            </div>
-                        </div> 
-                        
-                        
-                    </div>      
+                <div className="mobile-text-1">
+                    Hướng dẫn đặt ngày nghỉ cho tiệm
                 </div>
-                <div className="nhan-manh-1" id="m-section-1">
-                    <NhanManh1 />
+                <div className="mobile-text-2">
+                    Khi sử dụng Setmore, để tắt thời gian làm việc của tiệm thì về bản chất, quý anh chị sẽ cần <b>đặt lịch nghỉ cho tất cả các nhân viên.</b>
                 </div>
-                <div>
-                    <CustomerReview />
-                </div>
-                <div className="dong-vien-5">
-                    <NhanManh2 />
-                </div>
-                <div className="dong-vien-6">
-                    <NhanManh3 />
-                </div>
-                <div className="dong-vien-7">
-                    <NhanManh4 />
-                </div>
-                
-                <div className="homepage-mobile-services">
-                    <div className="services-list-1">
-                        <div className="service-container">
-                            <Service1 />
-                        </div>
-                    </div>
-                    <div className="services-list-2">
-                        <div className="service-container">
-                            <Service2 />
-                        </div>
-                    </div>
-                    <div className="services-list-3">
-                        <div className="service-container">
-                            <Service3 />
-                        </div>
-                    </div>
-                    <div className="services-list-4">
-                        <div className="service-container">
-                            <Service4 />
-                        </div>
-                    </div>
-                    <div className="services-list-5">
-                        <div className="service-container">
-                            <Service5 />
-                        </div>
-                    </div>
-                    <div className="services-list-6">
-                        <div className="service-container">
-                            <Service6 />
-                        </div>
+                <div className="mobile-logo-text">
+                    <div className="mobile-text-3">
+                        <ul>
+                            <li> Hướng dẫn dành cho ứng dụng trên điện thoại:</li>
+                        </ul>
                     </div>
                 </div>
-                
+                <div className="mobile-text-4">
+                    Bước 1: Quý anh/chị nhấn vào biểu tượng ứng dụng để mở Setmore.
+                </div>
+                <div className="mobile-image-1">
+                    <img className="mobile-image-1-1" src="images/0.jpg"/>
+                </div>
+                <div className="mobile-text-7">
+                    Bước 2: Từ màn hình chính của ứng dụng, quý anh/chị nhấn vào <b>Account.</b>
+                </div>
+                <div className="mobile-image-2">
+                    <img className="mobile-image-2-1" src="images/1.jpg"/>
+                </div>
+                <div className="mobile-text-9">
+                    Bước 3: Quý anh/chị nhấn vào mục <b>Staff.</b>
+                </div>
+                <div className="mobile-image-3">
+                    <img className="mobile-image-3-1" src="images/2.jpg"/>
+                </div>
+                <div className="mobile-text-11">
+                    Bước 4: Quý anh chị bấm chọn 1 nhân viên.
+                </div>
+                <div className="mobile-image-4">
+                    <img className="mobile-image-4-1" src="images/3.jpg"/>
+                </div>
+                <div className="mobile-text-14">
+                    Bước 5: Quý anh chị cuộn xuống và chọn mục <b>Time Off</b>
+                </div>
+                <div className="mobile-image-5">
+                    <img className="mobile-image-5-1" src="images/4.jpg"/>
+                </div>
+                <div className="mobile-text-15">
+                    Bước 6:	 Nhấn + <b>Time Off</b> để thêm thời gian Time Off của nhân viên này. 
+                </div>
+                <div className="mobile-image-6">
+                    <img className="mobile-image-6-1" src="images/5.jpg"/>
+                </div>
+                <div className="mobile-text-16">
+                    Bước 7: Lựa chọn các thông tin về thời gian. 
+                </div>
+                <div className="mobile-image-text">
+                    <div className="mobile-text-17">
+                        <ul>
+                            <li><b>All day:</b> Sử dụng khi tiệm nghỉ cả ngày. </li>
+                        </ul>
+                    </div>
+                    <img className="mobile-image-7" src="images/7-3.jpg"/>
+                </div>
+                <div className="mobile-image-text-2">
+                    <div className="mobile-text-18">
+                        <ul>
+                            <li><b>Starts: </b>Thời điểm Time Off bắt đầu.</li>
+                        </ul>
+                    </div>
+                    <img className="mobile-image-8" src="images/7-1.jpg"/>
+                </div>
+                <div className="mobile-image-text-3">
+                    <div className="mobile-text-19">
+                        <ul>
+                            <li><b>Ends:</b>Thời điểm Time Off kết thúc.</li>
+                        </ul>
+                    </div>
+                    <img className="mobile-image-9" src="images/7-2.jpg"/>
+                </div>
+                <div className="mobile-text-20">
+                    <b>Lưu ý:</b> quý anh/chị vui lòng chọn thời điểm Time Off kết thúc trước rồi mới chọn thời điểm bắt đầu để tránh phần mềm báo lỗi là “
+                    <span className="mobile-text-20-1">
+                        End time cannot be before or the same as the start time
+                    </span>”
+                </div>
+                <div className="mobile-text-21">
+                    Ví dụ: Quý anh/chị muốn cài đặt Time Off vào ngày 20 tháng 4 năm 2023. 
+                </div>
+                <div className="mobile-text-image">
+                    <div className="mobile-text-22">
+                        Đầu tiên, quý anh/chị chỉnh mục <b>Ends</b> thành
+                        <img className="mobile-image-10" src="images/7-2.jpg"/>
+                    </div>
+                </div>
+                <div className="mobile-text-image-2">
+                    <div className="mobile-text-23">
+                        và sau đó mới chỉnh mục <b>Starts</b> như hình
+                        <img className="mobile-image-11" src="images/7-1.jpg"/>
+                    </div>
+                </div>
+                <div className="mobile-text-24">
+                    Bước 8: Quý anh/chị kiểm tra lại thời gian Starts và Ends rồi nhấn vào <b>Create</b> để lưu lịch Time Off của nhân viên này.
+                </div>
+                <div className="mobile-image-12">
+                    <img className="mobile-image-12-1" src="images/8.jpg"/>
+                </div>
+                <div className="mobile-text-25">
+                    Bước 9: Lặp lại với tất cả các nhân viên.
+                </div>
+                <div className="mobile-image-13">
+                    <img className="mobile-image-13-1" src="images/9.jpg"/>
+                </div>
             </div>
             
+            <style jsx>{`
+                 
+            `}</style>
         </>
     )
 }

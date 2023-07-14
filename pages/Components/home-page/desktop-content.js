@@ -1,108 +1,126 @@
-import Button1 from '../buttons/button-1.js';
-import TimeSchedule from '/pages/Components/time-schedule/time-schedule.js';
-import Location from '/pages/Components/location/location';
-import CustomerReview from '/pages/Components/customer-review.js';
-import DongVien1 from '/pages/Components/dong-vien/dong-vien-1.js';
-import DongVien2 from '/pages/Components/dong-vien/dong-vien-2.js';
-import DongVien3 from '/pages/Components/dong-vien/dong-vien-3.js';
-import Service1 from '/pages/services/service-1.js';
-import Service2 from '/pages/services/service-2.js';
-import Service3 from '/pages/services/service-3.js';
-import Service4 from '/pages/services/service-4.js';
-import Service5 from '/pages/services/service-5.js';
-import Service6 from '/pages/services/service-6.js';
-import { Carousel } from 'react-bootstrap';
-import NhanManh1 from '/pages/Components/dong-vien/nhan-manh-1';
-import NhanManh2 from '/pages/Components/dong-vien/nhan-manh-2';
-import NhanManh3 from '/pages/Components/dong-vien/nhan-manh-3';
-import NhanManh4 from '/pages/Components/dong-vien/nhan-manh-4';
-import React, { useEffect } from "react";
-import FormDeLaiThongTin from '/pages/Components/form/form-de-lai-thong-tin';
-import Offers from '/pages/Components/offers/offers';
-import { thongTinTiem1 } from '/pages/core/info';
-import { thongTinTiem2 } from '/pages/core/info';
 
 
-export default function DesktopContent(){
-
-    useEffect(() => {
-        if (typeof window !== 'undefined'){
-            document.getElementById('first-screen-block').style.background = 'url('+thongTinTiem1.desktopCarouselImage1+')';
-        }
-      });
-
-    return(
-        <>
-            <div className="desktop-content">
-
-                <div className="first-screen-block" id="first-screen-block">
-                    <div className="first-screen-block-content">
-                        <div className="first-screen-block-bottom">
-                            <h1 className="first-screen-block-title">
-                                {thongTinTiem2.carouselHeading}
-                            </h1>
-                            <div className="button">
-                                <Button1 />
-                            </div>
-                        </div> 
-                        <div className="first-screen-block-video">
-                            <iframe className="first-screen-video" width={thongTinTiem1.firstScreenVideoDesktopWidth}height={thongTinTiem1.firstScreenVideoDesktopHeight} src={thongTinTiem1.firstScreenVideoLink} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>   
-                        </div>
-                        
-                    </div>      
-                </div>
-                <div className="nhan-manh-1" id="d-section-1">
-                    <NhanManh1 />
-                </div>
-                <div>
-                    <CustomerReview />
-                </div>
-                <div className="homepage-desktop-dong-vien">
-                    <div className="dong-vien-5">
-                        <NhanManh2 />
-                    </div>
-                    <div className="dong-vien-6">
-                        <NhanManh3 />
-                    </div>
-                    <div className="dong-vien-7">
-                        <NhanManh4 />
-                    </div>
-                </div>
-                <div className="homepage-desktop-services">
-                    <div className="services-list-1">
-                        <div className="service-container">
-                            <Service1 />
-                        </div>
-                    </div>
-                    <div className="services-list-2">
-                        <div className="service-container">
-                            <Service2 />
-                        </div>
-                    </div>
-                    <div className="services-list-3">
-                        <div className="service-container">
-                            <Service3 />
-                        </div>
-                    </div>
-                    <div className="services-list-4">
-                        <div className="service-container">
-                            <Service4 />
-                        </div>
-                    </div>
-                    <div className="services-list-5">
-                        <div className="service-container">
-                            <Service5 />
-                        </div>
-                    </div>
-                    <div className="services-list-6">
-                        <div className="service-container">
-                            <Service6 />
-                        </div>
-                    </div>
-                </div>
-                
+export default function TabletContent() {
+    return (
+      <>
+        <div className="tablet-content">
+          <div className="tablet-nd">
+            <div className="tablet-text-1">
+              Hướng dẫn đặt ngày nghỉ cho tiệm
             </div>
-
-        </>
+            <div className="tablet-text-2">
+              Khi sử dụng Setmore, để tắt thời gian làm việc của tiệm thì về bản chất, quý anh chị sẽ cần <b>đặt lịch nghỉ cho tất cả các nhân viên.</b>
+            </div>
+            <div className="tablet-logo-text">
+                <div className="tablet-text-3">
+                    <span className="tablet-text-3-1">
+                        .
+                    </span>
+                        Hướng dẫn dành cho ứng dụng trên điện thoại:
+                </div>
+            </div>
+            <div className="tablet-text-4">
+              Bước 1: Quý anh/chị nhấn vào biểu tượng ứng dụng để mở Setmore.
+            </div>
+            <div className="tablet-image-1">
+              <img className="tablet-image-1-1" src="images/0.jpg" />
+            </div>
+            <div className="tablet-text-7">
+              Bước 2: Từ màn hình chính của ứng dụng, quý anh/chị nhấn vào <b>Account.</b>
+            </div>
+            <div className="tablet-image-2">
+              <img className="tablet-image-2-1" src="images/1.jpg" />
+            </div>
+            <div className="tablet-text-9">
+              Bước 3: Quý anh/chị nhấn vào mục <b>Staff.</b>
+            </div>
+            <div className="tablet-image-3">
+              <img className="tablet-image-3-1" src="images/2.jpg" />
+            </div>
+            <div className="tablet-text-11">
+              Bước 4: Quý anh chị bấm chọn 1 nhân viên.
+            </div>
+            <div className="tablet-image-4">
+              <img className="tablet-image-4-1" src="images/3.jpg" />
+            </div>
+            <div className="tablet-text-14">
+              Bước 5: Quý anh chị cuộn xuống và chọn mục <b>Time Off</b>
+            </div>
+            <div className="tablet-image-5">
+              <img className="tablet-image-5-1" src="images/4.jpg" />
+            </div>
+            <div className="tablet-text-15">
+              Bước 6:	 Nhấn + <b>Time Off</b> để thêm thời gian Time Off của nhân viên này.
+            </div>
+            <div className="tablet-image-6">
+              <img className="tablet-image-6-1" src="images/5.jpg" />
+            </div>
+            <div className="tablet-text-16">
+              Bước 7: Lựa chọn các thông tin về thời gian.
+            </div>
+            <div className="tablet-image-text">
+              <div className="tablet-text-17">
+                <ul>
+                  <li><b>All day:</b> Sử dụng khi tiệm nghỉ cả ngày. </li>
+                </ul>
+              </div>
+              <img className="tablet-image-7" src="images/7-3.jpg" />
+            </div>
+            <div className="tablet-image-text-2">
+              <div className="tablet-text-18">
+                <ul>
+                  <li><b>Starts: </b>Thời điểm Time Off bắt đầu.</li>
+                </ul>
+              </div>
+              <img className="tablet-image-8" src="images/7-1.jpg" />
+            </div>
+            <div className="tablet-image-text-3">
+              <div className="tablet-text-19">
+                <ul>
+                  <li><b>Ends:</b>Thời điểm Time Off kết thúc.</li>
+                </ul>
+              </div>
+              <img className="tablet-image-9" src="images/7-2.jpg" />
+            </div>
+            <div className="tablet-text-20">
+              <b>Lưu ý:</b> quý anh/chị vui lòng chọn thời điểm Time Off kết thúc trước rồi mới chọn thời điểm bắt đầu để tránh phần mềm báo lỗi là “
+              <span className="tablet-text-20-1">
+                End time cannot be before or the same as the start time
+              </span>”
+            </div>
+            <div className="tablet-text-21">
+              Ví dụ: Quý anh/chị muốn cài đặt Time Off vào ngày 20 tháng 4 năm 2023.
+            </div>
+            <div className="tablet-text-image">
+              <div className="tablet-text-22">
+                Đầu tiên, quý anh/chị chỉnh mục <b>Ends</b> thành
+                <img className="tablet-image-10" src="images/7-2.jpg" />
+              </div>
+            </div>
+            <div className="tablet-text-image-2">
+              <div className="tablet-text-23">
+                Và sau đó mới chỉnh mục <b>Starts</b> như hình
+                <img className="tablet-image-11" src="images/7-1.jpg" />
+              </div>
+            </div>
+            <div className="tablet-text-24">
+              Bước 8: Quý anh/chị kiểm tra lại thời gian Starts và Ends rồi nhấn vào <b>Create</b> để lưu lịch Time Off của nhân viên này.
+            </div>
+            <div className="tablet-image-12">
+              <img className="tablet-image-12-1" src="images/8.jpg" />
+            </div>
+            <div className="tablet-text-25">
+              Bước 9: Lặp lại với tất cả các nhân viên.
+            </div>
+            <div className="tablet-image-13">
+              <img className="tablet-image-13-1" src="images/9.jpg" />
+            </div>
+          </div>
+        </div>
+  
+        <style jsx>{`
+  
+              `}</style>
+      </>
     )
-}
+  }

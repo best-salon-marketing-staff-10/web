@@ -1,6 +1,6 @@
 import Link from 'next/link';
-import { thongTinTiem1 } from '/pages/core/info';
-import { thongTinTiem2 } from '/pages/core/info';
+import { thongTinTiem1 } from '/pages/Components/core/info';
+import { thongTinTiem2 } from '/pages/Components/core/info';
 
 export default function TabletTopBar(){
     return(

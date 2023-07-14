@@ -1,0 +1,2299 @@
+html{
+  -youbkit-touch-callout: none; 
+  -youbkit-user-select: none;   
+  -moz-user-select: none; 
+  -ms-user-select: none;      
+  user-select: none;   
+}
+
+/* giao diện Desktop
+*/
+@media screen and (min-width: 1025px){
+  .page-mobile-nav-bar,
+  .page-tablet-nav-bar,
+  .page-mobile-content,
+  .page-tablet-content,
+  .page-mobile-insta-content,
+  .page-tablet-insta-content{
+    display: none;
+  }
+
+  /* Bài hướng dẫn Setmore
+  */ 
+  .desktop-text-1{
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    margin: auto;
+    margin-top: 25px;
+  }
+  
+  .desktop-text-2{
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 8px;
+    font-size: 18px;
+    text-align: center;
+  }
+  
+  .desktop-text-2-1{
+    display: grid;
+  }
+  
+  .desktop-logo-text{
+    margin-top: 20px;
+  }
+  
+  .desktop-text-3{
+    margin-top: 5px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  .desktop-text-3-1{
+    margin-top: 100px;
+    margin-right: 5px;
+    font-size: 50px;
+  }
+  
+  .desktop-text-4{
+    margin: auto;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 20px;
+  }
+  
+  .desktop-image-1{
+    margin-top: 40px;
+    text-align: center;
+  }
+  
+  .desktop-image-1-1{
+    max-width: 400px;
+  }
+  
+  .desktop-text-7{
+    margin-top: 55px;
+    text-align: center;
+    font-size: 20px;
+  }
+  
+  .desktop-image-2{
+    margin-top: 40px;
+    text-align: center;
+  }
+  
+  .desktop-image-2-1{
+    max-width: 400px;
+  }
+  
+  .desktop-text-9{ 
+    margin-top: 50px;
+    margin-left: 300px;
+    margin-right: 300px;
+    text-align: center;
+    font-size: 20px;
+  }
+  
+  .desktop-image-3{
+    margin-top: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+  
+  }
+  
+  .desktop-image-3-1{
+    max-width: 400px;
+  }
+  
+  .desktop-text-11{
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 50px;
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  .desktop-image-4{
+    margin-top: 40px;
+    text-align: center;
+  }
+  .desktop-image-4-1{
+    max-width: 400px;
+  }
+  
+  .desktop-text-14{
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 20px;
+  }
+  
+  .desktop-image-5{
+    margin-top: 40px;
+    text-align: center;
+  }
+  
+  .desktop-image-5-1{
+    max-width: 400px;
+  }
+  
+  
+  .desktop-text-15{
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 20px;
+  }
+  
+  .desktop-image-6{
+    margin-top: 50px;
+    text-align: center;
+  }
+  
+  .desktop-image-6-1{
+    max-width: 400px;
+  }
+  
+  .desktop-text-16{
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 20px;
+  }
+  
+  .desktop-image-text,
+  .desktop-image-text-2,
+  .desktop-image-text-3{
+    text-align: center;
+  }
+  
+  .desktop-text-17{
+    padding-left: 320px;
+    padding-right: 100px;
+    margin-top: 30px;
+    text-align: start;
+    font-size: 20px;
+  }
+  
+  .desktop-image-7{
+    margin-top: 40px;
+    text-align: center;
+    max-width: 500px;
+  }
+  
+  .desktop-text-18{
+    padding-left: 320px;
+    padding-right: 100px;
+    margin-top: 30px;
+    text-align: start;
+    font-size: 20px;
+  }
+  
+  .desktop-image-8{
+    margin-top: 40px;
+    text-align: center;
+    max-width: 500px;
+  }
+  
+  .desktop-text-19{
+    padding-left: 320px;
+    padding-right: 100px;
+    margin-top: 30px;
+    text-align: start;
+    font-size: 20px;
+  }
+  
+  .desktop-image-9{
+    margin-top: 40px;
+    text-align: center;
+    max-width: 500px;
+  }
+  
+  .desktop-text-20{
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 20px;
+  }
+  
+  .desktop-text-20-1{
+    color: red;
+  }
+  
+  .desktop-text-21{
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 20px;
+  }
+  
+  .desktop-text-22{
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 20px;
+  }
+  
+  .desktop-image-10{
+    max-width: 300px;
+  }
+  
+  .desktop-text-23{
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 20px;
+  }
+  
+  .desktop-image-11{
+    max-width: 300px;
+  }
+  
+  .desktop-text-24{
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 20px;
+  }
+  
+  .desktop-image-12{
+    margin-top: 40px;
+    text-align: center;
+  }
+  
+  .desktop-image-12-1{
+    max-width: 400px;
+  }
+  
+  .desktop-text-25{
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 20px;
+  }
+  
+  .desktop-image-13{
+    margin-top: 40px;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+  }
+  
+  .desktop-image-13-1{
+    max-width: 400px;
+  }
+
+  /* Đổi mk Insta
+  */
+
+  .desktop-insta-content{
+    background-color: #d9d9d9;
+  }
+
+  .desktop-insta-nd{
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: #ffffff;
+  }
+
+  .desktop-insta-title{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 60px;
+    margin-bottom: 60px;
+  }
+
+  .desktop-insta-description{
+    font-size: 20px;
+    font-weight: 500;
+    background-color: #A7DCFA;
+    padding-left: 60px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 80px;
+  }
+
+  .desktop-insta-description-color{
+    color: #1591D7;
+  }
+
+  .desktop-insta-text{
+    font-size: 17.5px;
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+
+  .desktop-insta-text-1{
+    font-size: 17px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+
+  .desktop-insta-text-2{
+    font-size: 17px;
+    margin-top: 50px;
+    margin-left: 70px;
+    margin-bottom: 20px;
+  }
+
+  .desktop-insta-text-3{
+    font-size: 17px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+
+  .desktop-insta-text-7{
+    font-size: 17.5px;
+    margin-left: 80px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+
+  .desktop-insta-text-8{
+    font-size: 17.5px;
+    margin-left: 80px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+  }
+
+  .desktop-insta-text-4{
+    font-size: 17px;
+    margin-left: 80px;
+    margin-top: 80px;
+    margin-bottom: 10px;
+  }
+
+  .desktop-insta-text-5{
+    font-size: 17px;
+    margin-left: 80px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  .desktop-insta-text-6{
+    font-size: 18px;
+    margin-left: 80px;
+    padding-bottom: 100px;
+  }
+
+  .desktop-insta-images{
+    text-align: center;
+  }
+
+  .desktop-insta-images-1{
+    max-width: 400px;
+    margin-bottom: 20px;
+    border: solid 3px;
+  }
+  
+  .desktop-insta-images-2,
+  .desktop-insta-images-3{
+    max-width: 400px;
+    margin-bottom: 10px;
+    border: solid 3px;
+  }
+
+/*Đổi mk FB IOS
+*/
+
+.desktop-facebook-ios-content{
+  background-color: #d9d9d9;
+}
+
+  .desktop-facebook-ios-nd{
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: #ffffff;
+  }
+
+  .desktop-facebook-ios-title{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 60px;
+    margin-bottom: 60px;
+  }
+
+  .desktop-facebook-ios-description{
+    font-size: 20px;
+    font-weight: 500;
+    background-color: #A7DCFA;
+    padding-left: 60px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 80px;
+  }
+
+  .desktop-facebook-ios-description-color{
+    color: #1591D7;
+  }
+
+  .desktop-facebook-ios-text{
+    font-size: 17.5px;
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+
+  .desktop-facebook-ios-text-1{
+    font-size: 17px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+
+  .desktop-facebook-ios-text-2{
+    font-size: 17px;
+    margin-top: 50px;
+    margin-left: 70px;
+    margin-bottom: 20px;
+  }
+
+  .desktop-facebook-ios-text-3{
+    font-size: 17px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+
+  .desktop-facebook-ios-text-7{
+    font-size: 17.5px;
+    margin-left: 80px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+
+  .desktop-facebook-ios-text-8{
+    font-size: 17.5px;
+    margin-left: 80px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+  }
+
+  .desktop-facebook-ios-text-4{
+    font-size: 17px;
+    margin-left: 80px;
+    margin-top: 80px;
+    margin-bottom: 10px;
+  }
+
+  .desktop-facebook-ios-text-5{
+    font-size: 17px;
+    margin-left: 80px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  .desktop-facebook-ios-text-6{
+    font-size: 18px;
+    margin-left: 80px;
+    padding-bottom: 100px;
+  }
+
+  .desktop-facebook-ios-images{
+    text-align: center;
+  }
+
+  .desktop-facebook-ios-images-1{
+    max-width: 400px;
+    margin-bottom: 20px;
+    border: solid 3px;
+  }
+
+  .desktop-facebook-ios-images-2,
+  .desktop-facebook-ios-images-3{
+    max-width: 400px;
+    margin-bottom: 10px;
+    border: solid 3px;
+  }
+
+  /* Đổi mk FB Android
+  */
+
+  .desktop-facebook-androi-content{
+    background-color: #d9d9d9;
+  }
+
+  .desktop-facebook-androi-nd{
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: #ffffff;
+  }
+
+  .desktop-facebook-androi-title{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 60px;
+    margin-bottom: 60px;
+  }
+
+  .desktop-facebook-androi-description{
+    font-size: 20px;
+    font-weight: 500;
+    background-color: #A7DCFA;
+    padding-left: 60px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 80px;
+  }
+
+  .desktop-facebook-androi-description-color{
+    color: #1591D7;
+  }
+
+  .desktop-facebook-androi-text{
+    font-size: 17.5px;
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+
+  .desktop-facebook-androi-text-1{
+    font-size: 17px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+
+  .desktop-facebook-androi-text-2{
+    font-size: 17px;
+    margin-top: 50px;
+    margin-left: 70px;
+    margin-bottom: 20px;
+  }
+
+  .desktop-facebook-androi-text-3{
+    font-size: 17px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+
+  .desktop-facebook-androi-text-7{
+    font-size: 17.5px;
+    margin-left: 80px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+
+  .desktop-facebook-androi-text-8{
+    font-size: 17.5px;
+    margin-left: 80px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+  }
+
+  .desktop-facebook-androi-text-4{
+    font-size: 17px;
+    margin-left: 80px;
+    margin-top: 80px;
+    margin-bottom: 10px;
+  }
+
+  .desktop-facebook-androi-text-5{
+    font-size: 17px;
+    margin-left: 80px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  .desktop-facebook-androi-text-6{
+    font-size: 18px;
+    margin-left: 80px;
+    padding-bottom: 100px;
+  }
+
+  .desktop-facebook-androi-images{
+    text-align: center;
+  }
+
+  .desktop-facebook-androi-images-1{
+    max-width: 400px;
+    margin-bottom: 20px;
+    border: solid 3px;
+  }
+
+  .desktop-facebook-androi-images-2,
+  .desktop-facebook-androi-images-3{
+    max-width: 400px;
+    margin-bottom: 10px;
+    border: solid 3px;
+  }
+
+  /* Đọc và trả lời tin nhắn GG
+  */
+
+  .desktop-google-content{
+    background-color: #C9C0C0;
+  }
+
+  .desktop-google-nd{
+    background-color: #ffffff;
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+
+  .desktop-google-title{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 650;
+  }
+
+  .desktop-google-description{
+    font-size: 18px;
+    margin-left: 50px;
+    margin-top: 50px;
+  }
+
+  .desktop-google-description-2{
+    font-size: 18px;
+    margin-left: 50px;
+    margin-top: 50px;
+  }
+
+  .desktop-google-description-3{
+    display: grid;
+    margin-left: 55px;
+    margin-top: 5px;
+  }
+
+  .desktop-google-text{
+    font-size: 18px;
+    margin-left: 50px;
+    margin-right: 20px;
+    margin-top: 50px;
+  }
+
+  .desktop-google-text-2{
+    font-size: 16.5px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  .desktop-google-text-3{
+    color: red;
+    font-size: 17px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+  }
+
+  .desktop-google-text-3-1{
+    text-decoration: underline;
+    font-weight: 600;
+    color: red;
+  }
+
+  .desktop-google-text-4{
+    font-size: 17px;
+    margin-left: 100px;
+    margin-right: 20px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+
+  .desktop-google-text-5{
+    font-size: 16.5px;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  .desktop-google-text-6{
+    font-size: 17px;
+    margin-left: 140px;
+    margin-right: 20px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+
+  .desktop-google-text-7{
+    font-size: 16px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .desktop-google-text-8{
+    font-size: 16px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+
+  .desktop-google-text-9{
+    font-size: 17px;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+  .desktop-google-text-10{
+    font-size: 16.5px;
+    margin-left: 80px;
+    margin-right: 20px;
+    margin-top: 20px;
+  }
+
+  .desktop-google-text-11{
+    font-size: 16.5px;
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 90px;
+  }
+
+  .desktop-google-image{
+    text-align: center;
+  }
+
+  .desktop-google-image-1{
+    max-width: 400px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: solid 2px;
+  }
+
+  .desktop-google-image-2{
+    max-width: 400px;
+    margin-top: 80px;
+    margin-bottom: 30px;
+    border: solid 2px;
+  }
+
+
+}
+
+/* Giao diện Tablet
+*/
+@media screen and (min-width: 481px) and (max-width: 1024px){
+  .page-desktop-nav-bar,
+  .page-mobile-nav-bar,
+  .page-desktop-content,
+  .page-mobile-content,
+  .page-desktop-insta-content,
+  .page-mobile-insta-content{
+    display: none;
+  }
+
+  /* Bài hướng dẫn Setmore
+  */ 
+
+  .tablet-text-1{
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .tablet-text-2{
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  .tablet-logo-text{
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .tablet-text-3{
+    font-size: 18.5px;
+  }
+
+  .tablet-text-3-1{
+    font-size: 30px;
+    font-weight: 700;
+    margin-right: 5px;
+  }
+  
+  .tablet-text-4{
+    margin-top: 5px;
+    text-align: center;
+    font-size: 18px;
+  }
+  
+  .tablet-image-1{
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .tablet-image-1-1{
+    max-width: 450px;
+  }
+  
+  .tablet-text-6{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 900;
+    color: #c8c5c5;
+  }
+  
+  .tablet-text-6-1{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 900;
+    color: #c8c5c5;
+  }
+  
+  .tablet-text-6-2{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 900;
+    color: #c8c5c5;
+  }
+  
+  .tablet-text-6-3{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 900;
+    color: #c8c5c5;
+  }
+  
+  .tablet-text-6-4{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 900;
+    color: #c8c5c5;
+  }
+  
+  .tablet-text-6-5{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 900;
+    color: #c8c5c5;
+  }
+  
+  .tablet-text-6-6{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 900;
+    color: #c8c5c5;
+  }
+  
+  .tablet-text-6-7{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 900;
+    color: #c8c5c5;
+  }
+  
+  .tablet-text-7{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 18px;
+  }
+  
+  .tablet-image-2{
+    margin-top: 30px;
+    text-align: center;
+  }
+  
+  .tablet-image-2-1{
+    max-width: 450px;
+  }
+  
+  .tablet-text-9{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 18px;
+  }
+  
+  .tablet-image-3{
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .tablet-image-3-1{
+    max-width: 450px;
+  }
+  
+  .tablet-text-11{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 18px;
+  }
+  
+  .tablet-image-4{
+    margin-top: 30px;
+    text-align: center;
+  }
+  
+  .tablet-image-4-1{
+    max-width: 450px;
+  }
+  
+  .tablet-text-14{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 18px;
+  }
+  
+  .tablet-image-5{
+    margin-top: 30px;
+    text-align: center;
+  }
+  
+  .tablet-image-5-1{
+    max-width: 450px;
+  }
+  
+  .tablet-text-15{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 18px;
+  }
+  
+  .tablet-image-6{
+    margin-top: 30px;
+    text-align: center;
+  }
+  
+  .tablet-image-6-1{
+    max-width: 450px;
+  }
+  
+  .tablet-text-16{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 18px;
+  }
+  
+  .tablet-image-text,
+  .tablet-image-text-2,
+  .tablet-image-text-3{
+      text-align: center;
+  }
+  
+  .tablet-text-17{
+    margin-top: 5px;
+    margin-left: 20px;
+    text-align: start;
+    font-size: 17.5px;
+  }
+  
+  .tablet-image-7{
+    margin-top: 5px;
+    text-align: center;
+    max-width: 470px;
+  }
+  
+  .tablet-text-18{
+    margin-top: 5px;
+    margin-left: 20px;
+    text-align: start;
+    font-size: 17.5px;
+  }
+  
+  .tablet-image-8{
+    margin-top: 5px;
+    text-align: center;
+    max-width: 400px;
+  }
+  
+  .tablet-text-19{
+    margin-top: 5px;
+    margin-left: 20px;
+    text-align: start;
+    font-size: 17.5px;
+  }
+  
+  .tablet-image-9{
+    margin-top: 5px;
+    text-align: center;
+    max-width: 400px;
+  }
+  
+  .tablet-text-20{
+    margin-top: 5px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+    font-size: 18px;
+  }
+  
+  .tablet-text-20-1{
+    color: red;
+  }
+  
+  .tablet-text-21{
+    margin-top: 5px;
+    text-align: center;
+    font-size: 17.5px;
+  }
+  
+  .tablet-text-22{
+    margin-top: 5px;
+    margin-left: 10px;
+    text-align: center;
+    font-size: 17.5px;
+  }
+  
+  .tablet-image-10{
+    text-align: center;
+    max-width: 400px;
+  }
+  
+  .tablet-text-23{
+    margin-top: 5px;
+    margin-left: 10px;
+    text-align: center;
+    font-size: 17.5px;
+  }
+  
+  .tablet-image-11{
+    text-align: center;
+    max-width: 422px;
+  }
+  
+  .tablet-text-24{
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+    font-size: 18px;
+  }
+  
+  .tablet-image-12{
+    margin-top: 30px;
+    text-align: center;
+  }
+  
+  .tablet-image-12-1{
+    max-width: 450px;
+  }
+  
+  .tablet-text-25{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 18px;
+  }
+  
+  .tablet-image-13{
+    margin-top: 30px;
+    text-align: center;
+  }
+  
+  .tablet-image-13-1{
+    max-width: 450px;
+  }
+
+  /* Đổi mk Insta
+  */
+
+  .tablet-insta-content{
+    background-color: #d9d9d9;
+  }
+
+  .tablet-insta-nd{
+    margin-left: 80px;
+    margin-right: 80px;
+    background-color: #ffffff;
+  }
+
+  .tablet-insta-title{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 60px;
+    margin-bottom: 60px;
+  }
+
+  .tablet-insta-description{
+    font-size: 18px;
+    font-weight: 500;
+    background-color: #A7DCFA;
+    padding-left: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 80px;
+  }
+
+  .tablet-insta-description-color{
+    color: #1591D7;
+  }
+
+  .tablet-insta-text{
+    font-size: 17.5px;
+    margin-left: 35px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+
+  .tablet-insta-text-1{
+    font-size: 17px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+
+  .tablet-insta-text-2{
+    font-size: 17.5px;
+    margin-top: 50px;
+    margin-left: 70px;
+    margin-bottom: 20px;
+  }
+
+  .tablet-insta-text-3{
+    font-size: 17px;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+
+  .tablet-insta-text-7{
+    font-size: 17.5px;
+    margin-left: 80px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+
+  .tablet-insta-text-8{
+    font-size: 17.5px;
+    margin-left: 80px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+  }
+
+  .tablet-insta-text-4{
+    font-size: 17.5px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 80px;
+    margin-bottom: 10px;
+  }
+
+  .tablet-insta-text-5{
+    font-size: 18.5px;
+    margin-left: 80px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  .tablet-insta-text-6{
+    font-size: 20px;
+    margin-left: 80px;
+    padding-bottom: 100px;
+  }
+
+  .tablet-insta-images{
+    text-align: center;
+  }
+
+  .tablet-insta-images-1{
+    max-width: 300px;
+    border: solid 3px;
+    margin-bottom: 20px;
+  }
+
+  .tablet-insta-images-2,
+  .tablet-insta-images-3{
+    max-width: 300px;
+    margin-bottom: 5px;
+  }
+
+  /* Đổi mk FB IOS
+  */
+  .tablet-facebook-ios-content{
+    background-color: #d9d9d9;
+  }
+
+  .tablet-facebook-ios-nd{
+    margin-left: 80px;
+    margin-right: 80px;
+    background-color: #ffffff;
+  }
+
+  .tablet-facebook-ios-title{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 60px;
+    margin-bottom: 60px;
+  }
+
+  .tablet-facebook-ios-description{
+    font-size: 18px;
+    font-weight: 500;
+    background-color: #A7DCFA;
+    padding-left: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 80px;
+  }
+
+  .tablet-facebook-ios-description-color{
+    color: #1591D7;
+  }
+
+  .tablet-facebook-ios-text{
+    font-size: 17.5px;
+    margin-left: 35px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+
+  .tablet-facebook-ios-text-1{
+    font-size: 17px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+
+  .tablet-facebook-ios-text-2{
+    font-size: 17.5px;
+    margin-top: 50px;
+    margin-left: 70px;
+    margin-bottom: 20px;
+  }
+
+  .tablet-facebook-ios-text-3{
+    font-size: 17px;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+
+  .tablet-facebook-ios-text-7{
+    font-size: 17.5px;
+    margin-left: 80px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+
+  .tablet-facebook-ios-text-8{
+    font-size: 17.5px;
+    margin-left: 80px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+  }
+
+  .tablet-facebook-ios-text-4{
+    font-size: 17.5px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 80px;
+    margin-bottom: 10px;
+  }
+
+  .tablet-facebook-ios-text-5{
+    font-size: 18.5px;
+    margin-left: 80px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  .tablet-facebook-ios-text-6{
+    font-size: 20px;
+    margin-left: 80px;
+    padding-bottom: 100px;
+  }
+
+  .tablet-facebook-ios-images{
+    text-align: center;
+  }
+
+  .tablet-facebook-ios-images-1{
+    max-width: 300px;
+    border: solid 3px;
+    margin-bottom: 20px;
+  }
+
+  .tablet-facebook-ios-images-2{
+    max-width: 300px;
+    margin-bottom: 5px;
+  }
+
+  .tablet-facebook-ios-images-3{
+    max-width: 300px;
+    margin-bottom: 5px;
+  }
+
+  /* Đổi mk FB Android
+  */
+  .tablet-facebook-androi-content{
+    background-color: #d9d9d9;
+  }
+
+  .tablet-facebook-androi-nd{
+    margin-left: 80px;
+    margin-right: 80px;
+    background-color: #ffffff;
+  }
+
+  .tablet-facebook-androi-title{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 60px;
+    margin-bottom: 60px;
+  }
+
+  .tablet-facebook-androi-description{
+    font-size: 18px;
+    font-weight: 500;
+    background-color: #A7DCFA;
+    padding-left: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 80px;
+  }
+
+  .tablet-facebook-androi-description-color{
+    color: #1591D7;
+  }
+
+  .tablet-facebook-androi-text{
+    font-size: 17.5px;
+    margin-left: 35px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+
+  .tablet-facebook-androi-text-1{
+    font-size: 17px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+
+  .tablet-facebook-androi-text-2{
+    font-size: 17.5px;
+    margin-top: 50px;
+    margin-left: 70px;
+    margin-bottom: 20px;
+  }
+
+  .tablet-facebook-androi-text-3{
+    font-size: 17px;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+
+  .tablet-facebook-androi-text-7{
+    font-size: 17.5px;
+    margin-left: 80px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+
+  .tablet-facebook-androi-text-8{
+    font-size: 17.5px;
+    margin-left: 80px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+  }
+
+  .tablet-facebook-androi-text-4{
+    font-size: 17.5px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 80px;
+    margin-bottom: 10px;
+  }
+
+  .tablet-facebook-androi-text-5{
+    font-size: 18.5px;
+    margin-left: 80px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  .tablet-facebook-androi-text-6{
+    font-size: 20px;
+    margin-left: 80px;
+    padding-bottom: 100px;
+  }
+
+  .tablet-facebook-androi-images{
+    text-align: center;
+  }
+
+  .tablet-facebook-androi-images-1{
+    max-width: 300px;
+    border: solid 3px;
+    margin-bottom: 20px;
+  }
+
+  .tablet-facebook-androi-images-2{
+    max-width: 300px;
+    margin-bottom: 5px;
+  }
+
+  .tablet-facebook-androi-images-3{
+    max-width: 300px;
+    margin-bottom: 5px;
+  }
+
+}
+
+/* Giao diện mobile
+*/
+@media screen and (max-width: 480px){
+  .page-desktop-nav-bar,
+  .page-tablet-nav-bar,
+  .page-desktop-content,
+  .page-tablet-content,
+  .page-desktop-insta-content,
+  .page-tablet-insta-content{
+    display: none;
+  }
+  
+  .mobile-logo-name{
+    display: flex;
+  }
+  
+  .mobile-logo{
+    padding: 30px;
+    margin: auto;
+    text-align: start;
+  }
+  
+  .mobile-logo-tiem{
+    max-width: 50px;
+  }
+  
+  .mobile-name{
+    margin-left: 5px;
+    margin-right: 50px;
+    padding-top: 35px;
+    text-align: start;
+    font-size: 30px;
+    font-weight: 700;
+    color: #000000;
+  }
+  
+  .mobile-text-1{
+    margin-top: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 25px;
+    font-weight: 650;
+    text-align: center;
+  }
+  
+  .mobile-text-2{
+    margin-left: 5.8px;
+    margin-top: 10px;
+    font-size: 18px;
+    text-align: center;
+  }
+  
+  .mobile-text-3{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 18px;
+    text-align: start;
+  }
+  
+  .mobile-text-4{
+    margin-top: 10px;
+    font-size: 16.5px;
+    text-align: center;
+  }
+  
+  .mobile-image-1{
+    margin-top: 40px;
+    text-align: center;
+  }
+  
+  .mobile-image-1-1{
+    max-width: 100%;
+  }
+  
+  .mobile-text-6{
+    margin-top: 80px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    color: #c8c5c5;
+  }
+  
+  .mobile-text-6-1{
+    margin-top: 80px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    color: #c8c5c5;
+  }
+  
+  .mobile-text-6-2{
+    margin-top: 80px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    color: #c8c5c5;
+  }
+  
+  .mobile-text-6-3{
+    margin-top: 80px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    color: #c8c5c5;
+  }
+  
+  .mobile-text-6-4{
+    margin-top: 80px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    color: #c8c5c5;
+  }
+  
+  .mobile-text-6-5{
+    margin-top: 80px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    color: #c8c5c5;
+  }
+  
+  .mobile-text-6-6{
+    margin-top: 80px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    color: #c8c5c5;
+  }
+  
+  .mobile-text-6-7{
+    margin-top: 80px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    color: #c8c5c5;
+  }
+  
+  .mobile-text-7{
+    margin-top: 30px;
+    font-size: 16.5px;
+    text-align: center;
+  }
+  
+  .mobile-image-2{
+    margin-top: 40px;
+    text-align: center;
+  }
+  
+  .mobile-image-2-1{
+    max-width: 100%;
+  }
+  
+  .mobile-text-9{
+    margin-top: 40px;
+    font-size: 16.5px;
+    text-align: center;
+  }
+  
+  .mobile-image-3{
+    margin-top: 40px;
+    text-align: center;
+  }
+  
+  .mobile-image-3-1{
+    max-width: 100%;
+  }
+  
+  .mobile-text-11{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 16.5px;
+  }
+  
+  .mobile-image-4{
+    margin-top: 40px;
+    text-align: center;
+  }
+  
+  .mobile-image-4-1{
+    max-width: 100%;
+  }
+  
+  .mobile-text-14{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 16.5px;
+  }
+  
+  .mobile-image-5{
+    margin-top: 40px;
+    text-align: center;
+  }
+  
+  .mobile-image-5-1{
+    max-width: 100%;
+  }
+  
+  .mobile-text-15{
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 16.5px;
+  }
+  
+  .mobile-image-6{
+    margin-top: 40px;
+    text-align: center;
+  }
+  
+  .mobile-image-6-1{
+    max-width: 100%;
+  }
+  
+  .mobile-text-16{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 16.5px;
+  }
+  
+  .mobile-text-17{
+    margin-top: 30px;
+    font-size: 16.5px;
+  }
+  
+  .mobile-image-7{
+    margin-top: 10px;
+    max-width: 100%;
+    text-align: center;
+  }
+  
+  .mobile-text-18{
+    margin-top: 30px;
+    font-size: 16.5px;
+  }
+  
+  .mobile-image-8{
+    margin-top: 10px;
+    max-width: 100%;
+    text-align: center;
+  }
+  
+  .mobile-text-19{
+    margin-top: 30px;
+    font-size: 16.5px;
+  }
+  
+  .mobile-image-9{
+    margin-top: 10px;
+    max-width: 100%;
+    text-align: center;
+  }
+  
+  .mobile-text-20{
+    margin-top: 40px;
+    margin-left: 10px;
+    margin-right: 5px;
+    font-size: 16.5px;
+    text-align: start;
+    line-height: 20px;
+  }
+  
+  .mobile-text-20-1{
+    color: red;
+  }
+  
+  .mobile-text-21{
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 5px;
+    font-size: 16.5px;
+    text-align: start;
+    line-height: 20px;
+  }
+  
+  .mobile-text-22{
+    margin-top: 20px;
+    font-size: 16.5px;
+    text-align: center;
+  }
+  
+  .mobile-image-10{
+    max-width: 100%;
+  }
+  
+  .mobile-text-23{
+    margin-top: 20px;
+    font-size: 16.5px;
+    text-align: center;
+  }
+  
+  .mobile-image-11{
+    max-width: 100%;
+  }
+  
+  .mobile-text-24{
+    margin-top: 40px;
+    margin-left: 10px;
+    text-align: center;
+    font-size: 16.5px;
+  }
+  
+  .mobile-image-12{
+    margin-top: 40px;
+    text-align: center;
+  }
+  
+  .mobile-image-12-1{
+    max-width: 100%;
+  }
+  
+  .mobile-text-25{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 16.5px;
+  }
+  
+  .mobile-image-13{
+    margin-top: 40px;
+    text-align: center;
+  }
+  
+  .mobile-image-13-1{
+    max-width: 100%;
+  }
+
+  /*
+  */
+
+  .mobile-insta-title{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 60px;
+    margin-bottom: 60px;
+  }
+
+  .mobile-insta-description{
+    font-size: 16.5px;
+    font-weight: 500;
+    background-color: #A7DCFA;
+    padding-left: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 80px;
+  }
+
+  .mobile-insta-description-color{
+    color: #1591D7;
+    font-weight: 500;
+  }
+
+  .mobile-insta-text{
+    font-size: 17px;
+    margin-left: 20px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+
+  .mobile-insta-text-1{
+    font-size: 17px;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+
+  .mobile-insta-text-2{
+    font-size: 17.5px;
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+  }
+
+  .mobile-insta-text-3{
+    font-size: 16px;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+
+  .mobile-insta-text-7{
+    font-size: 17.5px;
+    margin-left: 30px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+
+  .mobile-insta-text-8{
+    font-size: 17.5px;
+    margin-left: 30px;
+    margin-right: 20px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+  }
+  
+  .mobile-insta-text-4{
+    font-size: 17.5px;
+    margin-left: 30px;
+    margin-right: 20px;
+    margin-top: 80px;
+    margin-bottom: 10px;
+  }
+
+  .mobile-insta-text-5{
+    font-size: 18.5px;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  .mobile-insta-text-6{
+    font-size: 17px;
+    margin-left: 20px;
+    margin-right: 10px;
+    padding-bottom: 150px;
+  }
+
+  .mobile-insta-images{
+    text-align: center;
+  }
+
+  .mobile-insta-images-1{
+    max-width: 250px;
+    margin-bottom: 20px;
+    border: solid 3px;
+  }
+  
+  .mobile-insta-images-2,
+  .mobile-insta-images-3{
+    max-width: 250px;
+    margin-bottom: 5px;
+    border: solid 3px;
+  }
+
+  /*
+  */
+
+  .mobile-facebook-ios-title{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 60px;
+    margin-bottom: 60px;
+  }
+
+  .mobile-facebook-ios-description{
+    font-size: 16.5px;
+    font-weight: 500;
+    background-color: #A7DCFA;
+    padding-left: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 80px;
+  }
+
+  .mobile-facebook-ios-description-color{
+    color: #1591D7;
+    font-weight: 500;
+  }
+
+  .mobile-facebook-ios-text{
+    font-size: 17px;
+    margin-left: 20px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+
+  .mobile-facebook-ios-text-1{
+    font-size: 17px;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+
+  .mobile-facebook-ios-text-2{
+    font-size: 17.5px;
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+  }
+
+  .mobile-facebook-ios-text-3{
+    font-size: 16px;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+
+  .mobile-facebook-ios-text-7{
+    font-size: 17.5px;
+    margin-left: 30px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+
+  .mobile-facebook-ios-text-8{
+    font-size: 17.5px;
+    margin-left: 30px;
+    margin-right: 20px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+  }
+  
+  .mobile-facebook-ios-text-4{
+    font-size: 17.5px;
+    margin-left: 30px;
+    margin-right: 20px;
+    margin-top: 80px;
+    margin-bottom: 10px;
+  }
+
+  .mobile-facebook-ios-text-5{
+    font-size: 18.5px;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  .mobile-facebook-ios-text-6{
+    font-size: 17px;
+    margin-left: 20px;
+    margin-right: 10px;
+    padding-bottom: 150px;
+  }
+
+  .mobile-facebook-ios-images{
+    text-align: center;
+  }
+
+  .mobile-facebook-ios-images-1{
+    max-width: 250px;
+    margin-bottom: 20px;
+    border: solid 3px;
+  }
+
+  .mobile-facebook-ios-images-2{
+    max-width: 250px;
+    margin-bottom: 5px;
+    border: solid 3px;
+  }
+
+  .mobile-facebook-ios-images-3{
+    max-width: 250px;
+    margin-bottom: 5px;
+    border: solid 3px;
+  }
+
+  /*
+  */
+
+  .mobile-facebook-androi-nd{
+    background-color: #ffffff;
+  }
+
+  .mobile-facebook-androi-title{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 60px;
+    margin-bottom: 60px;
+  }
+
+  .mobile-facebook-androi-description{
+    font-size: 16.5px;
+    font-weight: 500;
+    background-color: #A7DCFA;
+    padding-left: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 80px;
+  }
+
+  .mobile-facebook-androi-description-color{
+    color: #1591D7;
+    font-weight: 500;
+  }
+
+  .mobile-facebook-androi-text{
+    font-size: 17px;
+    margin-left: 20px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+
+  .mobile-facebook-androi-text-1{
+    font-size: 17px;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+
+  .mobile-facebook-androi-text-2{
+    font-size: 17.5px;
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+  }
+
+  .mobile-facebook-androi-text-3{
+    font-size: 16px;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+
+  .mobile-facebook-androi-text-7{
+    font-size: 17.5px;
+    margin-left: 30px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+
+  .mobile-facebook-androi-text-8{
+    font-size: 17.5px;
+    margin-left: 30px;
+    margin-right: 20px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+  }
+  
+  .mobile-facebook-androi-text-4{
+    font-size: 17.5px;
+    margin-left: 30px;
+    margin-right: 20px;
+    margin-top: 80px;
+    margin-bottom: 10px;
+  }
+
+  .mobile-facebook-androi-text-5{
+    font-size: 18.5px;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  .mobile-facebook-androi-text-6{
+    font-size: 17px;
+    margin-left: 20px;
+    margin-right: 10px;
+    padding-bottom: 150px;
+  }
+
+  .mobile-facebook-androi-images{
+    text-align: center;
+  }
+
+  .mobile-facebook-androi-images-1{
+    max-width: 250px;
+    margin-bottom: 20px;
+    border: solid 3px;
+  }
+
+  .mobile-facebook-androi-images-2{
+    max-width: 250px;
+    margin-bottom: 5px;
+    border: solid 3px;
+  }
+
+  .mobile-facebook-androi-images-3{
+    max-width: 250px;
+    margin-bottom: 5px;
+    border: solid 3px;
+  }
+}
+
+/* Phần nav bar cho cả 3 giao diện
+*/
+.nav-bar{
+  display: grid; 
+  grid-template-columns: 3fr 1fr;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}            
+.nav-bar-menu{
+  margin: auto;
+  margin-right: 0px;
+  top: 0px;
+}   
+.nav-bar-link-main-menu{
+  text-decoration: none;
+  color: #8A94A6;
+  font-weight: 500;
+  font-size: 25px;
+}    
+.nav-bar-link-service-category{
+  text-decoration: none;
+  color: #949aa5;
+  font-weight: 500;
+  font-size: 21px;
+}
+.nav-bar-services-sub-category{
+  margin-top: 25px;
+}
+.nav-bar-services-sub-category-details{
+  text-decoration: none;
+  color: #B0B7C3;
+  font-weight: 500;
+  font-size: 21px;
+  margin-left: 15px;
+  margin-bottom: 10px;
+}
+.nav-bar-services{
+  margin-bottom: 20px;
+}
+.nav-bar-main-category{
+  margin-bottom: 10px;
+  font-size: 25px;
+}
+
+/* Phần bottom nav bar cho cả 3 giao diện
+*/
+.mobile-bottom-nav-bar-img{
+  max-width: 20px;
+  height: 20px;
+  margin: auto;
+  border-radius: 0px;
+}
+
+.mobile-bottom-nav-bar{
+  text-align: center;
+  justify-content: space-between;
+  max-width: 100%;
+}
+.mobile-bottom-nav-bar-section{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
+  justify-content: space-between;
+  margin: auto;  
+}
+.mobile-bottom-nav-bar-home,
+.mobile-bottom-nav-bar-services,
+.mobile-bottom-nav-bar-contact-us{
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.mobile-bottom-nav-bar-section-content{
+  color: #B0B7C3;
+  font-weight: 500;
+  font-size: 15px;
+}
+.mobile-bottom-nav-bar-link-a{
+  margin: auto;
+  font-weight: 500;
+  font-size: 21px;
+  text-decoration: none;
+  color: #B0B7C3;
+  font-size: 17px;
+  vertical-align: middle;
+}
+
+/*
+*/
+.logo-container{
+  display: flex;
+}
+.logo-container:hover{
+  cursor: pointer;
+}
+.logo{
+  margin-bottom: 5px;
+  max-width: 60px;
+  padding-left: 0px;
+  margin-left: 0px;
+}
+.logo-text{
+  line-height: 15px;
+  margin: auto;
+  margin-left: 10px;
+}
+.logo-text-1{
+  letter-spacing: 4px;
+  font-size: 25px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+.logo-text-2{
+  letter-spacing: 2px;
+  font-size: 11px;
+  margin-top: 0px;
+  font-weight: 700;
+}
+
+/*
+*/

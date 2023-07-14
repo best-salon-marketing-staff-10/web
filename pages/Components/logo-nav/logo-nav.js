@@ -1,6 +1,5 @@
 import Link from "next/link";
-import { thongTinTiem1 } from '/pages/core/info';
-import { thongTinTiem2 } from '/pages/core/info';
+import { thongTinTiem1 } from "/pages/Components/core/info";
 
 export default function LogoNav(){
 
@@ -9,14 +8,14 @@ export default function LogoNav(){
             <Link href="/">
                 <div className="logo-container">
                     <div className="logo">
-                        <img className="logo"src={thongTinTiem1.logoTiem} />
+                        <img className="logo"src="/images/logo.jpg" />
                     </div>
                     <div className="logo-text">
-                        <div className="logo-text-1">
+                        <h2 className="logo-text-1">
                             {thongTinTiem1.tenTiem}
-                        </div>
+                        </h2>
                         <div className="logo-text-2">
-                            {thongTinTiem2.sloganTiem}
+
                         </div>
                     </div>
                 </div>

@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "site": "bestsalonmarketing",
+    "site": "test-3-c121e",
     "public": "out",
     "ignore": [
       "firebase.json",

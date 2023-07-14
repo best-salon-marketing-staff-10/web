@@ -17,11 +17,13 @@ import DesktopFooter from '/pages/Components/footer/desktop-footer'
 import MobileFooter from '/pages/Components/footer/mobile-footer'
 import TabletFooter from '/pages/Components/footer/tablet-footer'
 import LogoNav from '/pages/Components/logo-nav/logo-nav';
-import { thongTinTiem1 } from '/pages/core/info';
-import { thongTinTiem2 } from '/pages/core/info';
-import { schemaData } from '/pages/core/info'
-
+import { thongTinTiem1 } from '/pages/Components/core/info';
+import { thongTinTiem2 } from '/pages/Components/core/info';
+import { schemaData } from '/pages/Components/core/info'
 import FormDeLaiThongTin from '/pages/Components/form/form-de-lai-thong-tin';
+
+
+
 
 export default function Home() {
   //Không sử dụng chuột phải
@@ -122,17 +124,27 @@ export default function Home() {
             dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
           />
         </Head>
-        <div className="announcement">
-          <div>
-            Website đang trong quá trình được xây dựng và sẽ được ra mắt để phục vụ quý anh chị sớm nhất có thể
+          <div className="page-container">
+            <div className="page-nav-bar">
+              <div className="page-desktop-nav-bar">
+                <DesktopNavBar/>
+              </div>
+              <div className="page-mobile-nav-bar">
+                <MobileNavBar />
+              </div>
+              <div className="page-tablet-nav-bar">
+                <TabletNavBar />
+              </div>          
+              <div className="page-mobile-bottom-nav-bar">
+                <MobileBottomNavBar/>
+              </div>
+            </div>
+            <div className="page-content">
+            
+            </div>    
           </div>
-          <div>
-          Mọi thông tin liên quan, quý anh chị có thể liên hệ tới Facebook Page chính thức của Best Salon Marketing
-          </div>
-          <Link href="https://www.facebook.com/BestSalonMarketingAgency/">
-            <img className="announcement-image" src="/images/icons/icon-facebook.png" />
-          </Link>
-        </div>
+  
+
     </>
   )
 }

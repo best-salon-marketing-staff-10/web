@@ -2,8 +2,8 @@ import Link from 'next/link';
 import Head from 'next/head';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import LogoNav from '/pages/Components/logo-nav/logo-nav';
-import { thongTinTiem1 } from '/pages/core/info';
-import { thongTinTiem2 } from '/pages/core/info';
+import { thongTinTiem1 } from '/pages/Components/core/info';
+import { thongTinTiem2 } from '/pages/Components/core/info';
 
 export default function TabletFooter(){
 

@@ -7,7 +7,7 @@
   },
   "dependencies": {
     "bootstrap": "^5.2.2",
-    "create-next-app": "^12.3.1",
+    "create-next-app": "^12.3.4",
     "dotenv": "^16.0.3",
     "firebase": "^9.12.1",
     "gapi": "^0.0.3",
